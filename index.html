@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Mix on Wheels</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="" id="navbar-logo">Mix-on-Wheels</a>
+                <div class="navbar-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item"><a href="index.html" class="navbar-links">Home</a>
+                    </li>
+                    <li class="navbar-item"><a href="drink" class="navbar-links">Mobile Menu</a>
+                    </li>
+                    <li class="navbar-item"><a href="" class="navbar-links">Services</a>
+                    </li>     
+                    <li class="navbar-item"><a href="" class="navbar-links">About us</a> 
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div>
+            <h1>Welcome to Mix on Wheels.</h1>
+            <p>A mobile cocktail bar with a mobile bartender. <br> We provide various kinds of services for Events, Weddings, Parties etc.
+                You provide the location and space, and we'll worry about the rest <strong>- just the bar side -</strong><br> We are certified individuals, who have a passion for cocktail making and exceptional customer service,<br>
+                and want to bring the cocktail experience to your next event. Skip the hassle of trying to figure out drinks at your next event and hire Mix on Wheels.
+            </p>
+        </div>
+
+        <H2>Services</H2>
+        <p>Currently running Dry Hire only. <strong> MORE SERVICES COMING SOON!</strong></p>
+
+        <div class="scroll-wrapper">
+            <button class="scroll-btn left" onclick="scrollPackages(-1)">&#8249;</button>
+
+            <div class="scroll-container" id="scroll-packages">
+                <div class="package"><h3>Dry Hire</h3>
+                    <ul class="p-info">
+                        <li>You provide the alcohol or</li>
+                        <li>Best for mocktails</li>
+                        <li>Choose 6 cocktails from our <strong>Mobile Menu</strong></li>
+                        <li>The number of attendees</li>
+                        <li>Lastly we'll let you know the qauntity of spirits required</li>
+                    </ul>
+
+                </div>
+                <div class="package">
+                    <ul class="p-info">X<!--<h3>PAYG</h3>-->
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="package">
+                    <ul class="p-info">X<!--<h3>Hourly Rate</h3>-->
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="package">X<!--<h3>Full Package</h3>-->
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="package">Package 5</div>
+                <div class="package">Package 6</div>
+                <div class="package">Package 7</div>
+                <!-- Add more packages here -->
+            </div>
+            
+            <button class="scroll-btn right" onclick="scrollPackages(1)">&#8250;</button>
+        </div>
+
+        <h2>Mobile Menu</h2>
+        
+        <div class="testing"> <!--class="drinks-menu"-->
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://source.unsplash.com/250x350/?cocktail" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Wheelie Good Mojitos</h2>
+                        <h3>Clasic | Banana | Bubblegum</h3>
+                        <p>Rum, brown sugar, fresh mint & lime — a refreshing classic.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="MoW/pinkgin.jpg" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Pink Gin Spritz</h2>
+                        <p>Rose gin, lychee liquor & soda water.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://source.unsplash.com/250x350/?cocktail" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Martini</h2>
+                        <h3>Vodka or Gin - <strong>Dry/dirty</strong></h3>
+                        <p>Nolly Prat and/or Olive Brine.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://source.unsplash.com/250x350/?cocktail" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Aperol Spritz</h2>
+                        <p>Aperol, prosecco & soda.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://source.unsplash.com/250x350/?cocktail" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Margarita</h2>
+                        <h3>Classic | Spicy | Tommy's</h3>
+                        <p>Tequila, triple-sec & lime juice.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://source.unsplash.com/250x350/?cocktail" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Elderflower Collins</h2>
+                        <p>Gin, Saint-German, elderflower cordial, lemon juice and white sugar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://source.unsplash.com/250x350/?cocktail" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Old Fashion</h2>
+                        <p>Whiskey, bitters, marachino syrup & brown sugar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://source.unsplash.com/250x350/?cocktail" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Daiquiri</h2>
+                        <h3>Classic | Fruity</h3>
+                        <p>Rum, lemon juice & white sugar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://source.unsplash.com/250x350/?cocktail" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Sourz</h2>
+                        <h3>Whiskey | Amaretto | Tequila</h3>
+                        <p>Spirit, lemon/lime juice, white/brown sugar & egg whites.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="MoW/expresso.jpg" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Expresso on Wheels</h2>
+                        <h3>Classic | Vanilla | Salted Caramel</h3>
+                        <p>Vodka, coffee liquor, coffee & white sugar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://source.unsplash.com/250x350/?cocktail" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Pornstar Martini</h2>
+                        <p>Vodka, passionfruit, spple juice & vanilla syrup</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="this.classList.toggle('flipped')">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://source.unsplash.com/250x350/?cocktail" alt="Drink">
+                    </div>
+                    <div class="card-face card-back"><h2>Negroni</h2>
+                        <p>Gin, campare & sweet vermouth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3>Just because is a cocktail is made fast doesn't mean it can't look and taste nice. Presentation matters!</h3>
+        <script src="app.js"></script>
+    </div>
+</body>
+<footer>
+    <div class="footer">
+        <p class="contact">For any enquiries or hires, do not hestitate to contact us:<br>
+        mixonwheeels@gmail.com</p>
+    </div>
+</footer>
+</html>
